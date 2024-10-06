@@ -1,27 +1,34 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Dự án React JS
 
-Currently, two official plugins are available:
+## Mô tả
+Dự án này là một ứng dụng web được xây dựng bằng React JS. Cung cấp các tính năng cơ bản (Tạo, sửa, xóa) để quản lý và theo dõi các task.
+Ứng dụng có giao diện người dùng thân thiện và dễ sử dụng.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---- Tính năng làm thêm:
+ Edit name, status của task
 
-## Expanding the ESLint configuration
+## Yêu cầu
+- **Node.js** (v14 trở lên)  
+  Bạn có thể tải Node.js tại [nodejs.org](https://nodejs.org/).
+  
+- **npm** (quản lý gói Node.js)  
+  npm thường được cài đặt cùng với Node.js.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Cài đặt
 
-- Configure the top-level `parserOptions` property like this:
+### Bước 1: Clone dự án
+Clone dự án về máy của bạn bằng cách sử dụng lệnh sau:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+```bash
+git clone https://github.com/ngoctrung0962/HC_Test.git
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Bước 2: Di chuyển vào thư mục dự án bằng lệnh sau:
+cd repo-name
+
+### Bước 3: Cài đặt các thư viện cần thiết
+npm install
+
+### Bước 4: Chạy dự án
+npm run dev
